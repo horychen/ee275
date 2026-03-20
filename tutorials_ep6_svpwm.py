@@ -1476,7 +1476,7 @@ if __name__ == '__main__':
         # Timing
         'CL_TS': 1e-4,
         'VL_EXE_PER_CL_EXE': 5,
-        'MACHINE_SIMULATIONs_PER_SAMPLING_PERIOD': 500,
+        'MACHINE_SIMULATIONs_PER_SAMPLING_PERIOD': 1,  # Set to 1 for fast simulation (SVPWM OFF). Set to >= 20 (e.g., 500) to enable SVPWM inverter simulation.
         'TIME_SLICE': 0.2,
         'NUMBER_OF_SLICES': 6,
         # Motor data
